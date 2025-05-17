@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marko Chudik's - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="image/png" href="imgs/M1-cropped.png"> 
+</head>
+
+<body>
+    <header class="header">
+        <!-- "logo" -->
+        <a href="#about" class="logo">
+            <span>Marko Chudik</span>
+        </a>
+
+        <!-- menu -->
+        <ul class="nav-links">
+            <!-- <li><a href="#index">Home</a></li> -->
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#future">Future</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <!-- button -->
+        <button onclick="window.open('https://github.com/emejarkeiou', '_blank')" class="visit-btn">Visit GitHub</button>
+
+    </header>
+<main id="main-content">
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <img class="pfp" src="imgs/M1.jpg">
+
+            <div class="info-box">
+
+                <div class="text">
+                    <h3>Hi, I am</h3>
+                    <h1>Marko Chudik</h1>
+                    <span id="changing-text">Software Engineer</span>
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn1">Download CV</div>
+                    <div class="btn2">Contact</div>
+                </div>
+
+                <div class="socials">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+     <section class="experience" id="experience">
+
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-info">
+
+            <div class="grid">
+                <div class="grid-card">
+                        <i class="fa-solid fa-code"></i>
+                        <span>C Programming</span>
+                        <h3>Structured Problem Solving</h3>
+                        <p>Strong understanding of the C language, suitable for building efficient and optimized low-level software solutions.</p>
+                </div>
+                <div class="grid-card">
+                        <i class="fa-solid fa-file-code"></i>
+                        <span>Web Development</span>
+                        <h3>Front-End Basics</h3>
+                        <p>Hands-on experience with HTML, CSS, and JavaScript – capable of creating easy, clean, responsive web interfaces.</p>
+                </div>
+                <div class="grid-card">
+                        <i class="fa-solid fa-laptop"></i>
+                        <span>Graphic Design</span>
+                        <h3>Creative Visual Skills</h3>
+                        <p>Proficient in Adobe Photoshop and Illustrator – designing logos, posters, and digital content with attention to detail.</p>
+                </div>
+                <div class="grid-card">
+                        <i class="fa-solid fa-list"></i>
+                        <span>Cross-Platform Skills</span>
+                        <h3>Linux, Windows, macOS, Kali Linux</h3>
+                        <p>Confident working across multiple operating systems, adaptable to different technical environments and workflows.</p>
+                </div>
+                <div class="grid-card">
+                        <i class="fa-solid fa-laptop"></i>
+                        <span>Soft Skills</span>
+                        <h3>Communication & Teamwork</h3>
+                        <p>Strong interpersonal communication and collaboration abilities – a reliable and cooperative team player.</p>
+                </div>
+                <div class="grid-card">
+                        <i class="fa-solid fa-list"></i>
+                        <span>Tech Curiosity</span>
+                        <h3>AI & Self-Learningo</h3>
+                        <p>Interested in artificial intelligence and emerging technologies – always eager to learn and explore new tools and concepts.</p>
+                </div>
+            </div>
+
+        </div>
+
+     </section>
+
+
+     <section id="future" class="future">
+
+        <h2 class="section-title">Future plans</h2>
+
+        <div class="plans-grid">
+            <div class="plans-cards">
+                <i class="fa-solid fa-fingerprint"></i>
+                <h3>Security</h3>
+                <p>I plan to dive deeper into system and network security, understanding vulnerabilities, and learning how to protect systems effectively.</p>
+            </div>
+            <div class="plans-cards">
+                <i class="fa-solid fa-server"></i>
+                <h3>Server Management</h3>
+                <p>I want to gain hands-on experience with server administration, including configuration, deployment, and basic maintenance tasks.</p>
+            </div>
+            <div class="plans-cards">
+                <i class="fa-solid fa-lines-leaning"></i>
+                <h3>C++ Programming</h3>
+                <p>Learning C++ is on my roadmap to better understand object-oriented programming and low-level system interaction.</p>
+            </div>
+            <div class="plans-cards">
+                <i class="fa-solid fa-lines-leaning"></i>
+                <h3>App Development</h3>
+                <p>I aim to build simple applications that solve real-world problems, exploring both desktop and mobile environments.</p>
+            </div>
+            <div class="plans-cards">
+                <i class="fa-solid fa-lines-leaning"></i>
+                <h3>Java Development</h3>
+                <p>Java is a key language I want to master for its versatility, especially for backend development and cross-platform apps.</p>
+            </div>
+            <div class="plans-cards">
+                <i class="fa-solid fa-server"></i>
+                <h3>Backend Development</h3>
+                <p>My goal is to understand backend technologies and databases, enabling me to build functional and secure full-stack solutions.</p>
+            </div>
+
+     </section>
+
+    <!-- PROJECT section -> add after doing some -->
+     <!-- <section id="projects" class="projects">
+
+        <h2 class="section-title">Recent Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="projects-cards">
+                <img src="imgs/M1.jpg" alt="project preview">
+                <h3>Working on it!</h3>
+                <p>Project currently in progres...</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">GitHub Repo</div>
+                </div>
+            </div>
+
+            <div class="projects-cards">
+                <img src="imgs/M1.jpg" alt="project preview">
+                <h3>Working on it!</h3>
+                <p>Project currently in progres...</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">GitHub Repo</div>
+                </div>
+            </div>
+
+            <div class="projects-cards">
+                <img src="imgs/M1.jpg" alt="project preview">
+                <h3>Working on it!</h3>
+                <p>Project currently in progres...</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">GitHub Repo</div>
+                </div>
+            </div>
+
+        </div>
+     </section> -->
+
+     <!-- CONTACT -->
+     <section id="contact" class="contact">
+
+        <h2 class="section-title">Contact</h2>
+        
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:markochudik.work@gmail.com">markochudik.work@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/marko-chudik-7a5472195/" target="_blank">linkedin.com/in/marko-chudik</a>
+            </div>
+            <div class="contact-item">
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/emejarkeiou" target="_blank">github.com/emejarkeiou</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+     <footer>
+        <ul>
+            <!-- <li><a href="#index">Home</a></li> -->
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#future">Future</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <p class="copyirght">© All Rights Reserved | Marko Chudik </p>
+     </footer>
+
+     <script src="script.js"></script>
+</main>
+</body>
+</html>
