@@ -222,11 +222,13 @@ section{
     gap: 2rem;
 }
 .socials i{
+    color: rgba(0, 0, 0, 0.8);
     font-size: 2.5rem;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
 .socials i:hover{
+    color:black;
     transform: scale(1.03);
 }
 
